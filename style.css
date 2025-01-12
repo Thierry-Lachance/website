@@ -40,16 +40,19 @@ ul {
 
   .awards {
     box-sizing: border-box;
-    flex-direction:row;
-    flex-wrap:wrap;
-    font-size:16px;
-    font-weight:bolder;
-    max-width:225px;
-    min-width:175px;
-    margin-left:10px;
-    margin-right:10px;
-    height:fit-content;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 16px;
+    font-weight: bolder;
+    max-width: 250px;
+    min-width: 225px;
+    margin: 15px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
+  
 
   /* Change the link color to #111 (black) on hover */
   li a:hover {
