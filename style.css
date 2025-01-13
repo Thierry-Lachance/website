@@ -52,6 +52,12 @@ ul {
     align-items: center;
     justify-content: center;
   }
+
+  .robot_photos {
+    
+    width:300px
+
+  }
   
 
   /* Change the link color to #111 (black) on hover */
