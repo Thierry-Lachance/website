@@ -1,6 +1,6 @@
 function copy() {
     
-    navigator.clipboard.writeText("--PutActualIpHere--");
-    alert("Ip Copied!");
+    navigator.clipboard.writeText("8195632050");
+    alert("phone number copied to clipboard!");
   }
 
