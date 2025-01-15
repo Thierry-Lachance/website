@@ -57,14 +57,30 @@ ul {
 
     height:60px;
     padding-top:15px;
+    padding-bottom:10px;
 
+  }
+
+  .award-name {
+    font-size:18px;
+    font-weight:bold;
+  }
+
+  .award-year {
+    font-size:14px;
+    font-weight:bold;
+  }
+
+  .competition {
+    font-size:16px;
+    font-weight:bold;
   }
 
 
   .banner {
     background-color: #005da6;
-    padding-left:10px;
-    padding-right:10px;
+    padding-left:15px;
+    padding-right:15px;
     width:150px;
     height:250px;
     margin-left:15px;
@@ -77,12 +93,6 @@ ul {
 
     padding-bottom:5px;
 
-  }
-
-  .FIRST {
-
-    font-style:italic;    
-    font-size:18px;
   }
 
   .awards {
