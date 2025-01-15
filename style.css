@@ -55,16 +55,14 @@ ul {
     flex-wrap: wrap;
     font-size: 16px;
     font-weight: bolder;
-    max-width: 125px;
-    min-width: 150px;
-    margin-left:10px;
-    margin-right:10px;
+    width: 150px;
+    padding-left:10px;
+    padding-right:10px;
     margin: 15px;
-    height: 200px;
-    margin-bottom: 100px;
     display: flex;
     align-items: left;
     padding-top:25px;
+    padding-bottom:25px;
     justify-content: center;
     background-color: #005da6;
   }
@@ -72,9 +70,9 @@ ul {
 
     width: 0;
     height: 0;
-    border-left: 25px solid transparent;
-    border-right: 25px solid transparent;
-    border-bottom: 50px solid #555;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 40px solid white;
   }
   .team-container {
     display: flex;
