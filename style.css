@@ -32,6 +32,10 @@ ul {
     
     
   }
+
+  .awards > body {
+    padding-top: 10px;
+  }
   
   li a {
     display: block;
@@ -49,17 +53,30 @@ ul {
     margin-right: auto;
   }
 
+  .logoFRC {
+
+    height:50px;
+    padding-top:25px;
+
+  }
+
+  .banner {
+    background-color: #005da6;
+    padding-left:10px;
+    padding-right:10px;
+    width:150px;
+    height:250px;
+    margin-left:15px;
+    margin-right:15px;
+    margin-bottom:10px;
+  }
+
   .awards {
     box-sizing: border-box;
     flex-direction: row;
     flex-wrap: wrap;
     font-size: 16px;
     font-weight: bolder;
-    width: 150px;
-    height:250px;
-    padding-left:10px;
-    padding-right:10px;
-    margin: 15px;
     display: flex;
     align-items: left;
     padding-top:25px;
