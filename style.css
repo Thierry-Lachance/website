@@ -11,9 +11,16 @@ body, ul {
   
 }
 
+.mentor-title {
+
+margin-top:30px;
+
+}
+
 h1 {
   text-align: center;
-  margin-top:30px;
+  margin-top:50px;
+  margin-bottom:30px;
 }
 h2 {
   text-align: center;
@@ -145,7 +152,6 @@ ul {
   }
 
   ul {
-    margin: 0;
     position: fixed;
     top: 0;
     width: 100%;
