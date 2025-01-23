@@ -81,6 +81,7 @@ ul {
   .competition {
     font-size:16px;
     font-weight:bold;
+    padding-bottom:10px;
   }
 
 
@@ -94,12 +95,6 @@ ul {
     margin-right:15px;
     margin-bottom:30px;
     padding-bottom:10px;
-  }
-
-  .competition {
-
-    padding-bottom:5px;
-
   }
 
   .awards {
