@@ -219,3 +219,16 @@ ul {
   margin-right:auto;
 
 }
+
+.main-text {
+
+  text-align:justify;
+  word-wrap:normal;
+  margin-left:auto;
+  margin-right:auto;
+  width:90%;
+  line-height:1.5;
+
+
+
+}
