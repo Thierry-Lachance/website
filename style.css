@@ -210,3 +210,12 @@ ul {
   border-radius: 5%;
 
 }
+
+.mentor-picture {
+
+  width:60%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+
+}
