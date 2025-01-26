@@ -25,6 +25,8 @@ h1 {
 h2 {
   text-align: center;
   margin-top:20px;
+  font-size:32px;
+  margin-bottom:20px;
 }
     
 ul {
@@ -253,5 +255,16 @@ ul {
 
 font-size:20px;
 font-weight:bold;
+
+}
+
+.robot_picture {
+
+  width:40%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:25px;
+  margin-bottom:40px;
 
 }
