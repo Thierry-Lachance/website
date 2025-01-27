@@ -1,20 +1,14 @@
 body {
-    padding-top: 25px;
-    color: white;
-    background-color: #000000;
-    font-family: "Arial", sans-serif;
-    text-align:center;
-}
-
-body, ul {
-  margin: 0;
-  
+  padding-top: 25px;
+  color: white;
+  background-color: #000000;
+  font-family: "Arial", sans-serif;
+  text-align:center;
+  margin:0;
 }
 
 .mentor-title {
-
-margin-top:30px;
-
+  margin-top:30px;
 }
 
 h1 {
@@ -22,6 +16,7 @@ h1 {
   margin-top:50px;
   margin-bottom:30px;
 }
+
 h2 {
   text-align: center;
   margin-top:20px;
@@ -30,219 +25,195 @@ h2 {
 }
     
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #333;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+li {
+  float: left;  
   }
+
+.awards > body {
+  padding-top: 10px;
+}
   
-  li {
-    float: left;
-    
-    
-  }
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
-  .awards > body {
-    padding-top: 10px;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+.award-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  .award-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.logoFRC {
+  height:80px;
+  padding-top:15px;
+  padding-bottom:10px;
+}
 
-  .logoFRC {
+.award-name {
+  font-size:18px;
+  font-weight:bold;
+}
 
-    height:80px;
-    padding-top:15px;
-    padding-bottom:10px;
+.award-year {
+  font-size:14px;
+  font-weight:bold;
+}
 
-  }
+.competition {
+  font-size:16px;
+  font-weight:bold;
+  padding-bottom:10px;
+}
 
-  .award-name {
-    font-size:18px;
-    font-weight:bold;
-  }
+.banner {
+  background-color: #005da6;
+  padding-left:15px;
+  padding-right:15px;
+  width:210px;
+  height:350px;
+  margin-left:15px;
+  margin-right:15px;
+  margin-bottom:30px;
+  padding-bottom:10px;
+}
 
-  .award-year {
-    font-size:14px;
-    font-weight:bold;
-  }
+.awards {
+  box-sizing: border-box;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 16px;
+  font-weight: bolder;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  background-color: #005da6;
+}
 
-  .competition {
-    font-size:16px;
-    font-weight:bold;
-    padding-bottom:10px;
-  }
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.team {
+  box-sizing: border-box;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 16px;
+  font-weight: bolder;
+  max-width: 250px;
+  min-width: 225px;
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  .banner {
-    background-color: #005da6;
-    padding-left:15px;
-    padding-right:15px;
-    width:210px;
-    height:350px;
-    margin-left:15px;
-    margin-right:15px;
-    margin-bottom:30px;
-    padding-bottom:10px;
-  }
+.robot-photos {
+  margin: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width:300px; 
+}
 
-  .awards {
-    box-sizing: border-box;
-    flex-direction: row;
-    flex-wrap: wrap;
-    font-size: 16px;
-    font-weight: bolder;
-    display: flex;
-    align-items: left;
-    justify-content: center;
-    background-color: #005da6;
-  }
-  .team-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
+li a:hover {
+  background-color: #ffee00;
+}
 
-  .team {
-    box-sizing: border-box;
-    flex-direction: row;
-    flex-wrap: wrap;
-    font-size: 16px;
-    font-weight: bolder;
-    max-width: 250px;
-    min-width: 225px;
-    margin: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+.contact-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  .robot-photos {
-  
-    margin: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    width:300px;
-   
-  }
-  
-  li a:hover {
-    background-color: #ffee00;
-  }
-
-  ul {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    overflow: hidden;
-  }
-  .contact-buttons {
-   
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-  
-  }
-  .button {
-    background-color: #333; /* Green */
-    border: none;
-    color: rgb(255, 255, 255);
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 8px;
-    margin: 0 auto; /* Center the button */
-    margin-bottom:25px;
+.button {
+  background-color: #333; /* Green */
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  margin: 0 auto; /* Center the button */
+  margin-bottom:25px;
 }
 
 .button:hover {
-    background-color: #ffee00; /* Green */
-    color: rgb(0, 0, 0);
+  background-color: #ffee00; /* Green */
+  color: rgb(0, 0, 0);
 }
 
 .address {
-
   text-align:center;
   margin:15px;
-
 }
 
 .maps {
-
   display:block;
   margin: 0 auto;
   border-radius:50px;
-
 }
 
 .favicon {
-
   width:30px;
   padding-left:10px;
   padding-right:10px;
   padding-top:7.5px;
   padding-bottom:4px;
-
 }
 
 .banner-picture {
-
   width:80%;
   border-radius: 5%;
-
 }
 
 .past-logos {
-
   width:80%;
   margin-top:50px;
-
 }
 
 .mentor-picture {
-
   width:60%;
   display:block;
   margin-left:auto;
   margin-right:auto;
-
 }
 
 .main-text {
-
   text-align:justify;
   word-wrap:normal;
   margin-left:auto;
   margin-right:auto;
   width:90%;
   line-height:1.5;
-
 }
 
 .logo {
-
   width:20%;
   display:block;
   margin-left:auto;
@@ -252,19 +223,15 @@ ul {
 }
 
 .back-icon {
-
-font-size:20px;
-font-weight:bold;
-
+  font-size:20px;
+  font-weight:bold;
 }
 
 .robot_picture {
-
   width:40%;
   display:block;
   margin-left:auto;
   margin-right:auto;
   margin-top:25px;
   margin-bottom:40px;
-
 }
